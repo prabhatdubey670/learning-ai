@@ -1,1 +1,21 @@
+# --- Python ---
 /.venv
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+next-env.d.ts
+npm-debug.log*
+
+# --- Large data (NOT committed — see README for how to get the dataset) ---
+car_prices.csv/
+*.zip
+
+# --- Logs / OS junk ---
+*.log
+.DS_Store
+Thumbs.db
